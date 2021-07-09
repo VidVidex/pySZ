@@ -1,0 +1,165 @@
+
+Prefixes:
+     xsd: http://www.w3.org/2001/XMLSchema
+     ns0: http://www.slo-zeleznice.si/
+
+Global elements:
+     ns0:Abonentske(vs: xsd:string, iz: xsd:string, username: xsd:string, password: xsd:string)
+     ns0:AbonentskeResponse(AbonentskeResult: {_value_1: ANY})
+     ns0:Arhiv_ovir(username: xsd:string, password: xsd:string)
+     ns0:Arhiv_ovirResponse(Arhiv_ovirResult: {_value_1: ANY})
+     ns0:Arhiv_ovir_ang(username: xsd:string, password: xsd:string)
+     ns0:Arhiv_ovir_angResponse(Arhiv_ovir_angResult: {_value_1: ANY})
+     ns0:Cene(vs: xsd:string, iz: xsd:string, via: xsd:string, grupa: xsd:int, mzap: xsd:int, datum: xsd:dateTime, jezik: xsd:string, username: xsd:string, password: xsd:string)
+     ns0:CeneResponse(CeneResult: {_value_1: ANY})
+     ns0:Delovni_casi_blagajn(username: xsd:string, password: xsd:string)
+     ns0:Delovni_casi_blagajnResponse(Delovni_casi_blagajnResult: {_value_1: ANY})
+     ns0:Iskalnik(vs: xsd:string, iz: xsd:string, vi: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string)
+     ns0:IskalnikResponse(IskalnikResult: {_value_1: ANY})
+     ns0:Iskalnik_mob(vs: xsd:string, iz: xsd:string, vi: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string)
+     ns0:Iskalnik_mobResponse(Iskalnik_mobResult: {_value_1: ANY})
+     ns0:Ovira(ovira_id: xsd:int, username: xsd:string, password: xsd:string)
+     ns0:OviraResponse(OviraResult: {_value_1: ANY})
+     ns0:Ovirani_vlaki(username: xsd:string, password: xsd:string)
+     ns0:Ovirani_vlakiResponse(Ovirani_vlakiResult: {_value_1: ANY})
+     ns0:Ovirani_vlaki_kolo(username: xsd:string, password: xsd:string)
+     ns0:Ovirani_vlaki_koloResponse(Ovirani_vlaki_koloResult: {_value_1: ANY})
+     ns0:Ovire(username: xsd:string, password: xsd:string)
+     ns0:OvireResponse(OvireResult: {_value_1: ANY})
+     ns0:Ovire_ang(username: xsd:string, password: xsd:string)
+     ns0:Ovire_angResponse(Ovire_angResult: {_value_1: ANY})
+     ns0:Postaje(username: xsd:string, password: xsd:string)
+     ns0:PostajeResponse(PostajeResult: {_value_1: ANY})
+     ns0:Postaje_vlaka(vl: xsd:string, da: xsd:dateTime, p_OD: xsd:string, p_DO: xsd:string, username: xsd:string, password: xsd:string)
+     ns0:Postaje_vlakaResponse(Postaje_vlakaResult: {_value_1: ANY})
+     ns0:Postaje_vlaka_vse(vl: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string)
+     ns0:Postaje_vlaka_vseResponse(Postaje_vlaka_vseResult: {_value_1: ANY})
+     ns0:Prihodi_postaja(postaja: xsd:string, cas: xsd:short, username: xsd:string, password: xsd:string)
+     ns0:Prihodi_postajaResponse(Prihodi_postajaResult: {_value_1: ANY})
+     ns0:Prvi_razred(da: xsd:dateTime, username: xsd:string, password: xsd:string)
+     ns0:Prvi_razredResponse(Prvi_razredResult: {_value_1: ANY})
+     ns0:Relacija(vs: xsd:string, iz: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string)
+     ns0:RelacijaResponse(RelacijaResult: {_value_1: ANY})
+     ns0:Vlaki_garniture(garnitura: xsd:string, username: xsd:string, password: xsd:string)
+     ns0:Vlaki_garnitureResponse(Vlaki_garnitureResult: {_value_1: ANY})
+     ns0:Vrste_ovir(username: xsd:string, password: xsd:string)
+     ns0:Vrste_ovirResponse(Vrste_ovirResult: {_value_1: ANY})
+     ns0:Vrste_vlakov(username: xsd:string, password: xsd:string)
+     ns0:Vrste_vlakovResponse(Vrste_vlakovResult: {_value_1: ANY})
+     ns0:WiFi(username: xsd:string, password: xsd:string)
+     ns0:WiFiResponse(WiFiResult: {_value_1: ANY})
+     ns0:WiFi_arh(username: xsd:string, password: xsd:string)
+     ns0:WiFi_arhResponse(WiFi_arhResult: {_value_1: ANY})
+     ns0:Zamude(username: xsd:string, password: xsd:string)
+     ns0:ZamudeResponse(ZamudeResult: {_value_1: ANY})
+     
+
+Global types:
+     xsd:anyType
+     xsd:ENTITIES
+     xsd:ENTITY
+     xsd:ID
+     xsd:IDREF
+     xsd:IDREFS
+     xsd:NCName
+     xsd:NMTOKEN
+     xsd:NMTOKENS
+     xsd:NOTATION
+     xsd:Name
+     xsd:QName
+     xsd:anySimpleType
+     xsd:anyURI
+     xsd:base64Binary
+     xsd:boolean
+     xsd:byte
+     xsd:date
+     xsd:dateTime
+     xsd:decimal
+     xsd:double
+     xsd:duration
+     xsd:float
+     xsd:gDay
+     xsd:gMonth
+     xsd:gMonthDay
+     xsd:gYear
+     xsd:gYearMonth
+     xsd:hexBinary
+     xsd:int
+     xsd:integer
+     xsd:language
+     xsd:long
+     xsd:negativeInteger
+     xsd:nonNegativeInteger
+     xsd:nonPositiveInteger
+     xsd:normalizedString
+     xsd:positiveInteger
+     xsd:short
+     xsd:string
+     xsd:time
+     xsd:token
+     xsd:unsignedByte
+     xsd:unsignedInt
+     xsd:unsignedLong
+     xsd:unsignedShort
+
+Bindings:
+     Soap11Binding: {http://www.slo-zeleznice.si/}SESoap
+     Soap12Binding: {http://www.slo-zeleznice.si/}SESoap12
+
+Indentane operacije so implementirane
+
+Service: SE
+     Port: SESoap (Soap11Binding: {http://www.slo-zeleznice.si/}SESoap)
+         Operations:
+            Abonentske(vs: xsd:string, iz: xsd:string, username: xsd:string, password: xsd:string) -> AbonentskeResult: {_value_1: ANY}
+                Arhiv_ovir(username: xsd:string, password: xsd:string) -> Arhiv_ovirResult: {_value_1: ANY}
+                Arhiv_ovir_ang(username: xsd:string, password: xsd:string) -> Arhiv_ovir_angResult: {_value_1: ANY}
+            Cene(vs: xsd:string, iz: xsd:string, via: xsd:string, grupa: xsd:int, mzap: xsd:int, datum: xsd:dateTime, jezik: xsd:string, username: xsd:string, password: xsd:string) -> CeneResult: {_value_1: ANY}
+            Delovni_casi_blagajn(username: xsd:string, password: xsd:string) -> Delovni_casi_blagajnResult: {_value_1: ANY}
+            Iskalnik(vs: xsd:string, iz: xsd:string, vi: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string) -> IskalnikResult: {_value_1: ANY}
+            Iskalnik_mob(vs: xsd:string, iz: xsd:string, vi: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string) -> Iskalnik_mobResult: {_value_1: ANY}
+            Ovira(ovira_id: xsd:int, username: xsd:string, password: xsd:string) -> OviraResult: {_value_1: ANY}
+                Ovirani_vlaki(username: xsd:string, password: xsd:string) -> Ovirani_vlakiResult: {_value_1: ANY}
+                Ovirani_vlaki_kolo(username: xsd:string, password: xsd:string) -> Ovirani_vlaki_koloResult: {_value_1: ANY}
+                Ovire(username: xsd:string, password: xsd:string) -> OvireResult: {_value_1: ANY}
+                Ovire_ang(username: xsd:string, password: xsd:string) -> Ovire_angResult: {_value_1: ANY}
+                Postaje(username: xsd:string, password: xsd:string) -> PostajeResult: {_value_1: ANY}
+            Postaje_vlaka(vl: xsd:string, da: xsd:dateTime, p_OD: xsd:string, p_DO: xsd:string, username: xsd:string, password: xsd:string) -> Postaje_vlakaResult: {_value_1: ANY}
+            Postaje_vlaka_vse(vl: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string) -> Postaje_vlaka_vseResult: {_value_1: ANY}
+            Prihodi_postaja(postaja: xsd:string, cas: xsd:short, username: xsd:string, password: xsd:string) -> Prihodi_postajaResult: {_value_1: ANY}
+            Prvi_razred(da: xsd:dateTime, username: xsd:string, password: xsd:string) -> Prvi_razredResult: {_value_1: ANY}
+            Relacija(vs: xsd:string, iz: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string) -> RelacijaResult: {_value_1: ANY}
+            Vlaki_garniture(garnitura: xsd:string, username: xsd:string, password: xsd:string) -> Vlaki_garnitureResult: {_value_1: ANY}
+                Vrste_ovir(username: xsd:string, password: xsd:string) -> Vrste_ovirResult: {_value_1: ANY}
+                Vrste_vlakov(username: xsd:string, password: xsd:string) -> Vrste_vlakovResult: {_value_1: ANY}
+                WiFi(username: xsd:string, password: xsd:string) -> WiFiResult: {_value_1: ANY}
+                WiFi_arh(username: xsd:string, password: xsd:string) -> WiFi_arhResult: {_value_1: ANY}
+                Zamude(username: xsd:string, password: xsd:string) -> ZamudeResult: {_value_1: ANY}
+
+     Port: SESoap12 (Soap12Binding: {http://www.slo-zeleznice.si/}SESoap12)
+         Operations:
+            Abonentske(vs: xsd:string, iz: xsd:string, username: xsd:string, password: xsd:string) -> AbonentskeResult: {_value_1: ANY}
+            Arhiv_ovir(username: xsd:string, password: xsd:string) -> Arhiv_ovirResult: {_value_1: ANY}
+            Arhiv_ovir_ang(username: xsd:string, password: xsd:string) -> Arhiv_ovir_angResult: {_value_1: ANY}
+            Cene(vs: xsd:string, iz: xsd:string, via: xsd:string, grupa: xsd:int, mzap: xsd:int, datum: xsd:dateTime, jezik: xsd:string, username: xsd:string, password: xsd:string) -> CeneResult: {_value_1: ANY}
+            Delovni_casi_blagajn(username: xsd:string, password: xsd:string) -> Delovni_casi_blagajnResult: {_value_1: ANY}
+            Iskalnik(vs: xsd:string, iz: xsd:string, vi: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string) -> IskalnikResult: {_value_1: ANY}
+            Iskalnik_mob(vs: xsd:string, iz: xsd:string, vi: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string) -> Iskalnik_mobResult: {_value_1: ANY}
+            Ovira(ovira_id: xsd:int, username: xsd:string, password: xsd:string) -> OviraResult: {_value_1: ANY}
+            Ovirani_vlaki(username: xsd:string, password: xsd:string) -> Ovirani_vlakiResult: {_value_1: ANY}
+            Ovirani_vlaki_kolo(username: xsd:string, password: xsd:string) -> Ovirani_vlaki_koloResult: {_value_1: ANY}
+            Ovire(username: xsd:string, password: xsd:string) -> OvireResult: {_value_1: ANY}
+            Ovire_ang(username: xsd:string, password: xsd:string) -> Ovire_angResult: {_value_1: ANY}
+            Postaje(username: xsd:string, password: xsd:string) -> PostajeResult: {_value_1: ANY}
+            Postaje_vlaka(vl: xsd:string, da: xsd:dateTime, p_OD: xsd:string, p_DO: xsd:string, username: xsd:string, password: xsd:string) -> Postaje_vlakaResult: {_value_1: ANY}
+            Postaje_vlaka_vse(vl: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string) -> Postaje_vlaka_vseResult: {_value_1: ANY}
+            Prihodi_postaja(postaja: xsd:string, cas: xsd:short, username: xsd:string, password: xsd:string) -> Prihodi_postajaResult: {_value_1: ANY}
+            Prvi_razred(da: xsd:dateTime, username: xsd:string, password: xsd:string) -> Prvi_razredResult: {_value_1: ANY}
+            Relacija(vs: xsd:string, iz: xsd:string, da: xsd:dateTime, username: xsd:string, password: xsd:string) -> RelacijaResult: {_value_1: ANY}
+            Vlaki_garniture(garnitura: xsd:string, username: xsd:string, password: xsd:string) -> Vlaki_garnitureResult: {_value_1: ANY}
+            Vrste_ovir(username: xsd:string, password: xsd:string) -> Vrste_ovirResult: {_value_1: ANY}
+            Vrste_vlakov(username: xsd:string, password: xsd:string) -> Vrste_vlakovResult: {_value_1: ANY}
+            WiFi(username: xsd:string, password: xsd:string) -> WiFiResult: {_value_1: ANY}
+            WiFi_arh(username: xsd:string, password: xsd:string) -> WiFi_arhResult: {_value_1: ANY}
+            Zamude(username: xsd:string, password: xsd:string) -> ZamudeResult: {_value_1: ANY}
+
