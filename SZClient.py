@@ -59,9 +59,7 @@ class SZClient:
     def wifi(self, arhiv=False) -> list[dict]:
 
         if arhiv:
-            # Začasno ne vrača arhiva ker je zgleda zelo velik in request traja predolgo
-            return []
-            # wifi_response = self.zeep_client.service.WiFi_arh(self.username, self.password)
+            wifi_response = self.zeep_client.service.WiFi_arh(self.username, self.password)
         else:
             wifi_response = self.zeep_client.service.WiFi(self.username, self.password)
 
